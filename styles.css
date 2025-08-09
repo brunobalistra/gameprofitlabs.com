@@ -47,8 +47,16 @@ html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,
 .plan .badge{position:absolute;top:-12px;right:16px;background:var(--green);color:#fff;padding:6px 10px;border-radius:999px;font-size:12px;font-weight:700}
 .plan h3{margin:0 0 6px 0}
 .price{font-size:28px;margin:0 0 10px 0}
+.plan .who{margin:0 0 12px 0;color:#334155;font-weight:600}
 .plan ul{margin:0 0 16px 18px;color:var(--muted)}
 .note{text-align:center;color:var(--muted);margin-top:10px}
+
+.compare{margin-top:24px;background:#fff;border:1px solid #e5e7eb;border-radius:16px;padding:16px}
+.compare h3{margin:0 0 12px 0}
+.table{display:grid;grid-template-columns:1fr 160px 160px}
+.row{display:contents}
+.row>div{border-top:1px solid #eef2f7;padding:10px 8px}
+.head>div{font-weight:700;border-top:none;background:#f8fafc}
 
 .quote{background:#fff;border-left:4px solid var(--green);padding:18px;border-radius:8px}
 .quote p{margin:0 0 8px 0}
@@ -64,4 +72,9 @@ html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,
   .hero h1{font-size:36px}
   .cards{grid-template-columns:1fr}
   .plans{grid-template-columns:1fr}
+  .table{grid-template-columns:1fr 1fr}
+  .head{display:none}
+  .row>div:nth-child(2)::before{content:"Starter — ";font-weight:700;color:#334155}
+  .row>div:nth-child(3){border-top:1px dashed #e5e7eb}
+  .row>div:nth-child(3)::before{content:"Pro — ";font-weight:700;color:#334155}
 }

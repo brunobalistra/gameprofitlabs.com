@@ -9,7 +9,6 @@
   <g transform="translate(40,40)">
     <path d="M10 120 C40 40, 140 40, 170 120" fill="none" stroke="url(#g)" stroke-width="18" stroke-linecap="round"/>
     <circle cx="46" cy="106" r="10" fill="#007A5E"/>
-    <circle cx="210" cy="210" r="1" fill="none"/>
     <path d="M40 120 L70 90 L100 120 L140 80 L170 120" fill="none" stroke="#007A5E" stroke-width="6" stroke-linecap="round" stroke-dasharray="3 6"/>
   </g>
   <text x="128" y="220" font-family="Inter, Arial" font-size="24" text-anchor="middle" fill="#007A5E">GPL</text>
